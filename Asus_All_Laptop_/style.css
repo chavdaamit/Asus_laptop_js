@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h-line{
+width: 90px;
+height: 15px;
+background: linear-gradient(0deg,rgb(40, 49, 41) 21%, rgb(215, 210, 210) 100%);
+border-radius: 20px;
+}
+.red{
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.card-body{
+ font-family: sans-serif; 
+}
+.red:hover{
+transform: scale(1.1);
+transition: all 0.5s;  
+border: 1px solid red;
+}
+.ads:hover{
+transform: scale(1.1);
+transition: all 0.5s;
+    
+}
+.red11{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(125, 50, 50, 0.2) 0px -3px 0px inset;
+}
+.red11:hover{
+transform: scale(1.1);
+border: 4px solid blue;
+transition: all 0.5s;
+}
+.tt a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+body{
+    background-color: gainsboro;
+overflow-x: hidden;
+  font-family: "Momo Trust Sans", sans-serif;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.red111{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(125, 50, 50, 0.2) 0px -3px 0px inset;
+}
+.red111:hover{
+transform: scale(1.1);
+border: 4px solid green;
+transition: all 0.5s;
+}
+.red1111{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(125, 50, 50, 0.2) 0px -3px 0px inset;
+}
+.red1111:hover{
+transform: scale(1.1);
+transition: all 0.5s;
+border: 3px solid orange;
+}
+.red22{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(125, 50, 50, 0.2) 0px -3px 0px inset;
+}
+.red22:hover{
+transform: scale(1.1);
+transition: all 0.5s;
+border: 3px solid red;
+}
+.ad11:hover{
+transform: scale(1.1);
+transition: all 0.5s;
+}
+/* .rotate-01{
+-webkit-transition: -webkit-transform 1s;
+}
+.rotate-01:hover{
+    -webkit-transform: rotate(360deg) translateZ(0);
+}
+.rotate-02{
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+} */
+
+/* ====== Cart / Buy Now additions ====== */
+
+#cartIconBtn{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+#cartCountBadge{
+    font-size: 0.7rem;
+    position: relative;
+    top: -1px;
+}
+
+.cart-btn-group .add-to-cart-btn,
+.cart-btn-group .buy-now-btn{
+    font-size: 0.8rem;
+    padding: 4px 12px;
+    border-radius: 20px;
+}
+
+.cart-btn-group .add-to-cart-btn:hover{
+    background-color: #212529;
+    color: #fff;
+}
+
+.cart-row img{
+    border-radius: 6px;
+    background: #f5f5f5;
+    padding: 4px;
+}
+
+.qty-btn{
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    line-height: 1;
+}
+
+#cartOffcanvas{
+    width: 380px;
+}
+
+#checkoutBtn{
+    font-weight: 600;
+}
